@@ -1,0 +1,28 @@
+# move poetry & brew python3.8 to the front on PATH
+export PATH="/usr/local/opt/python@3.8/bin:$PATH"
+export PATH="$PATH:/Users/chadmin/Library/Python/3.8/bin"
+
+# turn on autocompletion?
+autoload -Uz compinit && compinit
+
+
+# The following lines were added by compinstall
+zstyle :compinstall filename '/Users/chadmin/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+
+# set options
+setopt NO_CASE_GLOB
+setopt AUTO_CD
+setopt EXTENDED_HISTORY # add details to the history file
+setopt INC_APPEND_HISTORY # adds commands as they are typed, not at shell exit
+setopt CORRECT
+setopt CORRECT_ALL
+
+# set history file variable
+HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
+
+# aliases
+alias -g ll='ls -lah'
