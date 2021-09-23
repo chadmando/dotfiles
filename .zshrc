@@ -119,3 +119,6 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 
 # aliases
 alias -g ll='ls -lah'
+
+# 0h-my-posh add
+eval "$(oh-my-posh --init --shell zsh --config ~/jandedobbeleer.omp.json)"

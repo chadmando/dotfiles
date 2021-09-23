@@ -1,0 +1,7 @@
+# move brew python3.8 to the front on PATH
+export PATH="/usr/local/opt/python@3.8/bin:$PATH"
+
+# turn on autocompletion?
+autoload -Uz compinit && compinit
+
+
