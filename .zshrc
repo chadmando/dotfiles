@@ -89,6 +89,13 @@ if type brew &>/dev/null; then
 fi
 # End Homebrew Completion Requirement
 
+# pipx Completion Requirement
+autoload -U bashcompinit
+bashcompinit
+
+eval "$(register-python-argcomplete pipx)"
+# End pipx Completion Requirement
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -122,3 +129,6 @@ alias -g ll='ls -lah'
 
 # 0h-my-posh add
 eval "$(oh-my-posh --init --shell zsh --config ~/jandedobbeleer.omp.json)"
+
+# Created by `pipx` on 2022-02-05 17:44:25
+export PATH="$PATH:/Users/chadmin/.local/bin"
