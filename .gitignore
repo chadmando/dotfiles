@@ -1,0 +1,10 @@
+
+/*
+.bash_sessions/*
+.zsh_sessions/*
+.bash_history
+.zsh_history
+!.bash*
+!.zsh*
+!.oh-my-zsh/
+!.vscode/
