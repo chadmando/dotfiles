@@ -2,6 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # move brew python3.10 to the front of PATH
+export PATH="/usr/local/opt/python@3.10/Frameworks/Python.framework/Versions/3.10/bin:$PATH"
 export PATH="/usr/local/opt/python@3.10/bin:$PATH"
 #export PATH="/usr/local/lib/python3.10/site-packages:$PATH"
 
@@ -129,6 +130,8 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 
 # aliases
 alias -g ll='ls -lah'
+# be confident that I am using the python 3.10 pip
+alias pip310='/usr/local/opt/python@3.10/bin/pip3' 
 
 # 0h-my-posh add
 eval "$(oh-my-posh --init --shell zsh --config ~/jandedobbeleer.omp.json)"
