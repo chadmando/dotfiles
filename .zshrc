@@ -2,8 +2,9 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # move poetry & brew python3.8 to the front on PATH
-export PATH="/usr/local/opt/python@3.8/bin:$PATH"
-export PATH="$PATH:/Users/chadmin/Library/Python/3.8/bin"
+export PATH="/usr/local/opt/python@3.10/bin:$PATH"
+export PATH="/usr/local/lib/python3.10/site-packages:$PATH"
+# export PATH="$PATH:/Users/chadmin/Library/Python/3.8/bin"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/chadmin/.oh-my-zsh"
