@@ -1,9 +1,11 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# move poetry & brew python3.8 to the front on PATH
+# move brew python3.10 to the front of PATH
 export PATH="/usr/local/opt/python@3.10/bin:$PATH"
-export PATH="/usr/local/lib/python3.10/site-packages:$PATH"
+#export PATH="/usr/local/lib/python3.10/site-packages:$PATH"
+
+# poetry PATH adjustment -- change for 3.10
 # export PATH="$PATH:/Users/chadmin/Library/Python/3.8/bin"
 
 # Path to your oh-my-zsh installation.
