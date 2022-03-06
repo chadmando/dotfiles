@@ -132,6 +132,7 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias -g ll='ls -lah'
 # be confident that I am using the python 3.10 pip
 alias pip310='/usr/local/opt/python@3.10/bin/pip3' 
+alias dds='docker run -it --rm -v $(pwd):/malware chadmando/dssuite'
 
 # 0h-my-posh add
 eval "$(oh-my-posh --init --shell zsh --config ~/jandedobbeleer.omp.json)"
