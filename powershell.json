@@ -1,0 +1,34 @@
+// vscode snippet for powershell documentation comments
+// does not include all tags
+"Add Doc Comments":{
+         "prefix":"doc comments",
+         "body":[
+             "<#",
+             ".SYNOPSIS",
+             "$1",
+             ".DESCRIPTION",
+             "$2",
+             ".PARAMETER $3",
+             "$4",
+             ".EXAMPLE",
+             " ",
+            ".INPUTS",
+            " ",
+            ".OUTPUTS",
+            " ",
+            ".NOTES",
+            "$5",
+            ".LINK",
+            " ",
+            "COMPONENT",
+            "What is this used with? e.g. Active Directory, Exchange, Windows",
+            ".ROLE",
+            "User role for this script or function",
+            ".FUNCTIONALITY",
+            "What is the intended use of the script or function",
+            "#>"
+             
+         ],
+         "description": "Add documentation comments to script or function"
+     }
+ }
