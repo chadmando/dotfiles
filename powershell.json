@@ -20,7 +20,7 @@
             "$5",
             ".LINK",
             " ",
-            "COMPONENT",
+            ".COMPONENT",
             "What is this used with? e.g. Active Directory, Exchange, Windows",
             ".ROLE",
             "User role for this script or function",
