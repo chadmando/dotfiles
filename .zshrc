@@ -6,6 +6,9 @@ export PATH="/usr/local/opt/python@3.10/Frameworks/Python.framework/Versions/3.1
 export PATH="/usr/local/opt/python@3.10/bin:$PATH"
 #export PATH="/usr/local/lib/python3.10/site-packages:$PATH"
 
+# Add Anaconda to PATH
+export PATH="/usr/local/anaconda3/bin:$PATH"
+
 # poetry PATH adjustment -- change for 3.10
 # export PATH="$PATH:/Users/chadmin/Library/Python/3.8/bin"
 
