@@ -10,7 +10,7 @@ export PATH="/usr/local/anaconda3/bin:$PATH"
 # move brew python3.10 to the front of PATH
 export PATH="/usr/local/opt/python@3.10/Frameworks/Python.framework/Versions/3.10/bin:$PATH"
 export PATH="/usr/local/opt/python@3.10/bin:$PATH"
-qexport PATH="/usr/local/lib/python3.10/site-packages:$PATH"
+export PATH="/usr/local/lib/python3.10/site-packages:$PATH"
 
 # poetry PATH adjustment -- change for 3.10
 # export PATH="$PATH:/Users/chadmin/Library/Python/3.8/bin"
