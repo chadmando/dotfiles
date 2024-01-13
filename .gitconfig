@@ -1,0 +1,15 @@
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = chadmando
+	email = gobu99@gmail.com
+[alias]
+	lg = log --oneline --decorate --all --graph
+	s = status -s
+[core]
+	editor = code --wait

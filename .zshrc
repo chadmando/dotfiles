@@ -5,12 +5,13 @@
 export PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
 
 # Add Anaconda to PATH
-export PATH="/usr/local/anaconda3/bin:$PATH"
+#export PATH="/usr/local/anaconda3/bin:$PATH"
 
 # move brew python3.10 to the front of PATH
-export PATH="/usr/local/opt/python@3.10/Frameworks/Python.framework/Versions/3.10/bin:$PATH"
-export PATH="/usr/local/opt/python@3.10/bin:$PATH"
-export PATH="/usr/local/lib/python3.10/site-packages:$PATH"
+#export PATH="/usr/local/opt/python@3.10/Frameworks/Python.framework/Versions/3.10/bin:$PATH"
+#export PATH="/usr/local/opt/python@3.10/bin:$PATH"
+
+#export PATH="/usr/local/lib/python3.10/site-packages:$PATH"
 
 # poetry PATH adjustment -- change for 3.10
 # export PATH="$PATH:/Users/chadmin/Library/Python/3.8/bin"
@@ -144,7 +145,7 @@ alias pip310='/usr/local/opt/python@3.10/bin/pip3'
 alias dds='docker run -it --rm -v $(pwd):/malware chadmando/dssuite'
 
 # 0h-my-posh add
-eval "$(oh-my-posh --init --shell zsh --config ~/jandedobbeleer.omp.json)"
+eval "$(oh-my-posh --init --shell zsh --config ~//.my-omp-theme.json)"
 
 # Created by `pipx` on 2022-02-05 17:44:25
 export PATH="$PATH:/Users/chadmin/.local/bin"
