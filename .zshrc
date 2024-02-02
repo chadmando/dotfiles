@@ -4,6 +4,9 @@
 # add brew installed grep to PATH
 export PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
 
+# add pytest folder to PATH
+export PATH="/Users/chadmin/Library/Python/3.12/bin:$PATH"
+
 # Add Anaconda to PATH
 #export PATH="/usr/local/anaconda3/bin:$PATH"
 
